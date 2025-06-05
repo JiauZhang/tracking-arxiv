@@ -1,0 +1,29 @@
+name: ArXiv Paper
+description: Fill your arxiv paper.
+title: "Fill your paper title"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill your paper!
+  - type: textarea
+    id: paper-title
+    attributes:
+      label: Fill your paper title
+      value: "Fill your paper title"
+    validations:
+      required: true
+  - type: textarea
+    id: paper-abstract
+    attributes:
+      label: Fill your paper abstract
+      value: "Fill your paper abstract"
+    validations:
+      required: true
+  - type: textarea
+    id: paper-arxiv
+    attributes:
+      label: Fill your paper arxiv url
+      value: "https://arxiv.org/pdf/2506.98765"
+    validations:
+      required: true
